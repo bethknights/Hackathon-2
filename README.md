@@ -39,6 +39,10 @@ List of business requirements and a rationale to map them to the Data Visualisat
 * Identify business insights to enhance profitability, investigate initial hypotheses and allow predictions to be made for future business activity.
 * These hypotheses will be investigated through the use of numerical data insights as well as data visualisations to be presented within an interactive dashboard.
 
+## ETL Process for Credit Card Data Analysis
+
+To ensure the dataset was clean, structured, and suitable for analysis in **Power BI**, we followed a comprehensive **ETL (Extract, Transform, Load) process**. Initially, we **extracted** raw credit card data, identifying and handling inconsistencies such as missing values, incorrect data types, and anomalies. In the **transformation phase**, numerical columns were processed—scaling values where necessary, filling or removing null entries, and ensuring consistency across fields. Special attention was given to the **attrition_flag** column, converting categorical values ("Existing Customer" & "Attrited Customer") into binary (`1` for retained customers, `0` for attrited), while handling missing values by assigning `-1` to facilitate analysis in **Power BI**. The cleaned dataset was then **loaded** into a structured format, ready for advanced visualization and analytics. This preparation ensures seamless filtering, reliable insights, and optimal performance within Power BI dashboards.
+
 ## Analysis techniques used (TBC)
 
 * Data analysis methods used include numerical data extraction and the use of line, pie and scatter/bar charts.
