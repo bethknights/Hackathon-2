@@ -1,75 +1,109 @@
+# Credit Churn Analysis Project
+
+Credit Churn Analysis Project is an initial data analysis project designed to utilise data exploration, analysis, and visualisation in order to understand churn drivers, dimensional trends and key areas of challenge and opportunity in order to enhance future retention.
+
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
 
-Welcome,
+## Dataset Content
+* The dataset used for this project comprises of a credit card churn dataset comprising of a single CSV file taken from Kaggle which contained historical churn data for a major credit provider. 
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+* Our dataset consisted of 10,000 customers and contains information on their age, gender, salary, dependent count, education level, marital_status, income category, credit card limit, credit card category, etc. 
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+* See link to the original dataset provided by S Goyal at Kaggle: https://www.google.com/url?q=https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data&sa=D&source=editors&ust=1749552955472088&usg=AOvVaw1o2y1XTJcNfrRwjw66KjOU
 
-## How to use this repo
+## Business Requirements
+* Key business requirements include the requirement to identify churn drivers, dimensional trends and key areas of challenge and opportunity in order to enhance future retention.
 
-1. Use this template to create your GitHub project repo. Click the Use this template button, then click Create a new repository.
+## Hypothesis and how to validate?
 
-1. Copy the URL of your repository to your clipboard.
+* We predict that younger customers will exhibit higher levels of churn and greater credit utilisation, reflecting more fluid financial behaviour. Additionally, we aim to explore potential correlations between education levels, professional backgrounds, and customer loyalty. These hypotheses will be tested and illustrated using data visualisations, which will be showcased via both an interactive dashboard and a public presentation.
 
-1. In VS Code, select File - Open Folder.
+## Project Plan
 
-1. Select your vscode-projects folder, then click the Select Folder button on Windows, or Open button on Mac.
+* Project ideation is that the sales data can be effectively cleaned and analysed in order to identify key trends and useful data to enhance profitability & retention. The project involves validating our hypothesis through data analysis techniques with results to be presented using data visualisations via an interactive dashboard.
 
-1. From the top menu in VS Code, select Terminal > New Terminal to open the terminal.
+* The data was cleaned before analysis in order to identify any missing or incomplete data lines.
 
-1. In the terminal, type git clone followed by the URL of your GitHub repository. Then hit Enter. This command will download all the files in your GitHub repository into your vscode-projects folder.
+* Outline of the high-level steps taken for the analysis: clean data for processing, analyse and present findings for users.
 
-1. In VS Code, select File > Open Folder again.
+* Ideology- why did we choose the research methodologies we used? We wanted to obtain an initial understanding of how to extract information from data using basic charts and tools.
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click Select Folder.
+* Further work including the use of more complex predictive methodologies and strategies to reduce churn could be carried out on the dataset once patterns have been identified and these could be explored further at a later date.
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select Command Palette to open the VS Code command palette.
+## The rationale to map the business requirements to the Data Visualisations
 
-1. In the command palette, type: create environment and select Python: Create Environment…
+List of business requirements and a rationale to map them to the Data Visualisations:
 
-1. Choose Venv from the dropdown list.
+* Identify churn trends, and investigate the theory that younger clients with less established situations more likely to attrit, investigate any correlation between income/educational background and churn, and investigate whether long-term clients less likely to attrit.
+* Identify business insights to enhance profitability, investigate initial hypotheses and allow predictions to be made for future business activity.
+* These hypotheses will be investigated through the use of numerical data insights as well as data visualisations to be presented within an interactive dashboard.
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+## Analysis techniques used (TBC)
 
-1. DO NOT click the box next to requirements.txt, as you need to do more steps before you can install your dependencies. Click OK.
+* Data analysis methods used include numerical data extraction and the use of line, pie and scatter/bar charts.
+* Any Future improvements? It would have provided a greater level of insight to display a further level of drill down into the data.
+* Did the data limit us? The data had to be intensively cleaned before use to deal with missing values, outliers and other issues (to be fully detailed later in the write-up).
+* How was AI used in the project? We used generative AI tools to help with ideation, design thinking and code optimisation.
 
-1. You will see a .venv folder appear in the file explorer pane to show that the virtual environment has been created.
+## Ethical considerations
 
-1. Important: Please add the .venv to your .gitignore file
+* We took steps to address data privacy, bias or fairness issues with the data.
+* Anonymized information about the customers, recording 21 non-identifying features was used.
+* The provenance of the data was considered and informed consent/compliance with GDPR was assumed.
+* Bias/fairness issues were not considered as no sensitive data was used.
 
-1. Return to the terminal by clicking on the TERMINAL tab or click on the Terminal menu and choose New Terminal if no terminal is currently open.
+## Dashboard Design (TBC)
+* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
+* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
+* How were data insights communicated to technical and non-technical audiences?
+* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
- `pip3 install -r requirements.txt`
+## Unfixed Bugs (TBC)
+* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
+* Did you recognise gaps in your knowledge, and how did you address them?
+* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
-1. Open the jupyter_notebooks directory, and click on the notebook you want to open.
+## Development Roadmap
 
-1. Click the kernel button and choose Python Environments.
+* What challenges did you face, and what strategies were used to overcome these challenges? One challenge we faced during the hackathon was staying in sync across branches and resolving merge conflicts when working simultaneously in VS Code and GitHub, especially as we navigated multiple feature updates in a tight timeframe.
+  
+* After the hackathon we plan to learn how to use Streamlit to build on the data skills and design thinking we developed during this project, transforming our insights into interactive and accessible applications.
 
-Note that the kernel says Python 3.12.2 as it inherits from the workspace, so it will be Python-3.12.2 as installed by our template. To confirm this, you can use `! python --version` in a notebook code cell.
+## Main Data Analysis Libraries
 
-## Cloud IDE Reminders
+* Python, Panda, Numpy, Matplotlib, Seaborn. Please refer to documentation for insights on use and success.
 
-To log into the Heroku toolbelt CLI:
+## Credits 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Code Institute provided repository templates, README template, content, media and extra help with queries along the way.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* W3 coding provided further information and tutorials on designing dashboards and colour palettes.
 
-* Set the runtime.txt Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+### Content 
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
+* Template for README has been provided to me to use as a student of Code Institute.
+  
+* Instructions on how to implement data analysis techniques were provided to us to use as students of Code Institute.
+
+### Media
+
+* The Code Institute logo has been used with permission as a Code Institute student.
+
+## Team Members
+
+This project was developed by our hackathon team:
+
+- Beth [GitHub link if you want]
+- Gregory [GitHub link if you want]
+- Shema [GitHub link if you want]
+
+## Acknowledgements 
+
+We would like to thank the people who provided support through this project:
+
+* Emma Lamont for support and tutorials.
+  
+* Mark Briscoe, Niel McEwen & John Rearden for tutorials and insights into effective data visualisation.
+  
+* Everyone at Code Institute for providing the training opportunity and for all of the guidance along the way.
