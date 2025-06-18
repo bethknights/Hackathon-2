@@ -37,7 +37,7 @@ Credit Churn Analysis Project is an initial data analysis project designed to ut
 ## The rationale to map the business requirements to the Data Visualisations
 
 * Identify churn trends, and investigate the theory that younger, less established clients  more likely to attrit, investigate any correlation between income/educational background and churn, and investigate whether long-term clients less likely to attrit.
-* Identify business insights to enhance profitability, investigate initial hypotheses and allow predictions to be made for future business activity.
+* Identify business insights to enhance profitability, investigate validity of our initial hypotheses and allow predictions to be made for future business activity.
 * These hypotheses will be investigated through the use of numerical data insights as well as data visualisations to be presented within an interactive dashboard.
 
 ## ETL Process for Credit Card Data Analysis
