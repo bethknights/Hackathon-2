@@ -135,7 +135,9 @@ Consistent chart types, filters, and labels ensured everyone could interpret the
 
 * The Code Institute logo has been used with permission as a Code Institute student.
 
-Project GitHub Link: https://app.powerbi.com/groups/me/reports/045c75e4-e86e-4e1a-976a-59a4c2fd2837/e61c947319c6afad5376?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi&bookmarkGuid=b2828574-c792-446f-ad27-2cd1625fe0d6 
+## GitHub Project Link:
+
+* Please refer to our GitHub dashboard to explore our project further: https://app.powerbi.com/groups/me/reports/045c75e4-e86e-4e1a-976a-59a4c2fd2837/e61c947319c6afad5376?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi&bookmarkGuid=b2828574-c792-446f-ad27-2cd1625fe0d6 
 
 ## Team Members
 
