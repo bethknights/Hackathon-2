@@ -143,11 +143,11 @@ Consistent chart types, filters, and labels ensured everyone could interpret the
 
 This project was developed by our hackathon team:
 
-- Beth Knights [GitHub - bethknights]
+- Beth Knights [GitHub - bethknights] https://www.linkedin.com/in/beth-anne-knights 
 
-- Gregory Emokpae [GitHub - Greggpeter234]
+- Gregory Emokpae [GitHub - Greggpeter234] https://www.linkedin.com/in/gregory-emokpae 
 
-- Shema Rahman [GitHub - Shema774]
+- Shema Rahman [GitHub - Shema774] https://www.linkedin.com/in/shemarahman 
 
 ## Acknowledgements 
 
