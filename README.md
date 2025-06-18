@@ -2,8 +2,6 @@
 
 Credit Churn Analysis Project is an initial data analysis project designed to utilise data exploration, analysis, and visualisation in order to understand churn drivers, dimensional trends and key areas of challenge and opportunity in order to enhance future retention.
 
-## Project GitHub Link: https://app.powerbi.com/groups/me/reports/045c75e4-e86e-4e1a-976a-59a4c2fd2837/e61c947319c6afad5376?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi&bookmarkGuid=b2828574-c792-446f-ad27-2cd1625fe0d6
-
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
@@ -42,12 +40,8 @@ Credit Churn Analysis Project is an initial data analysis project designed to ut
 
 ## ETL Process for Credit Card Data Analysis
 
-* To ensure the dataset was clean, structured, and suitable for analysis in **Power BI**, we followed a comprehensive **ETL (Extract, Transform, Load) process**. Initially, we **extracted** raw credit card data, identifying and handling inconsistencies such as missing values, incorrect data types, and anomalies. In the **transformation phase**, numerical columns were processed—scaling values where necessary, filling or removing null entries, and ensuring consistency across fields. Outlier correction: The initial **IQR-based filtering** was too strict, reducing the dataset from 10,172 customers to 8,000. To resolve this, we adjusted the IQR threshold from 1.5 to 3.0, ensuring more valid customer records were retained while still filtering extreme values. This has now resulted in 9390 customers. **Attrition flag recoding**: As there was -1 showing in all columns from the original data clean I recoded again the binary classification (0 for attrited, 1 for retained) was adjusted to exclusively use -1 for missing values, ensuring no valid data was removed during processing. **Numerical column transformations**: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
-
-* **Load:**After completing data transformations:
-The cleaned dataset was saved as cleaned_credit_card_data_v2.csv, ensuring all improvements were preserved. It was loaded into **Power BI** for advanced visualization, filtering, and predictive analytics.
-
-This revised dataset ensures optimal performance, enabling reliable insights into customer retention and financial behaviours while m- Numerical column transformations: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
+* To ensure the dataset was clean, structured, and suitable for analysis in **Power BI**, we followed a comprehensive **ETL (Extract, Transform, Load) process**. Initially, we **extracted** raw credit card data, identifying and handling inconsistencies such as missing values, incorrect data types, and anomalies. In the **transformation phase**, numerical columns were processed—scaling values where necessary, filling or removing null entries, and ensuring consistency across fields. Outlier correction: The initial **IQR-based filtering** was too strict, reducing the dataset from 10,172 customers to 8,000. To resolve this, we adjusted the IQR threshold from 1.5 to 3.0, ensuring more valid customer records were retained while still filtering extreme values. This has now resulted in 9390 customers. **Attrition flag recoding**: As there was -1 showing in all columns from the original data clean I recoded again the binary classification (0 for attrited, 1 for retained) was adjusted to exclusively use -1 for missing values, ensuring no valid data was removed during processing. **Numerical column transformations**: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios. After completing data transformations:
+The cleaned dataset was saved as cleaned_credit_card_data_v2.csv, ensuring all improvements were preserved. It was loaded into **Power BI** for advanced visualization, filtering, and predictive analytics. This revised dataset ensures optimal performance, enabling reliable insights into customer retention and financial behaviours while m- Numerical column transformations: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
 
 * Data analysis methods used include numerical data extraction and dashboards incorporating the use of interactive doughnut and scatter/bar charts.
 
@@ -60,8 +54,11 @@ This revised dataset ensures optimal performance, enabling reliable insights int
 ## Ethical considerations
 
 * We took steps to address data privacy, bias or fairness issues with the data.
+
 * Anonymized information about the customers, recording 21 non-identifying features was used.
+
 * The provenance of the data was considered and informed consent/compliance with GDPR was assumed.
+
 * Bias/fairness issues were not considered as no sensitive data was used.
 
 ## Dashboard Design 
@@ -137,6 +134,8 @@ Consistent chart types, filters, and labels ensured everyone could interpret the
 ### Media
 
 * The Code Institute logo has been used with permission as a Code Institute student.
+
+Project GitHub Link: https://app.powerbi.com/groups/me/reports/045c75e4-e86e-4e1a-976a-59a4c2fd2837/e61c947319c6afad5376?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi&bookmarkGuid=b2828574-c792-446f-ad27-2cd1625fe0d6 
 
 ## Team Members
 
