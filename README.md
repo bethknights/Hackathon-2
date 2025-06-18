@@ -37,20 +37,17 @@ Credit Churn Analysis Project is an initial data analysis project designed to ut
 ## The rationale to map the business requirements to the Data Visualisations
 
 * Identify churn trends, and investigate the theory that younger, less established clients  more likely to attrit, investigate any correlation between income/educational background and churn, and investigate whether long-term clients less likely to attrit.
-* Identify business insights to enhance profitability, investigate initial hypotheses and allow predictions to be made for future business activity.
+* Identify business insights to enhance profitability, investigate validity of our initial hypotheses and allow predictions to be made for future business activity.
 * These hypotheses will be investigated through the use of numerical data insights as well as data visualisations to be presented within an interactive dashboard.
 
 ## ETL Process for Credit Card Data Analysis
 
-To ensure the dataset was clean, structured, and suitable for analysis in **Power BI**, we followed a comprehensive **ETL (Extract, Transform, Load) process**. Initially, we **extracted** raw credit card data, identifying and handling inconsistencies such as missing values, incorrect data types, and anomalies. In the **transformation phase**, numerical columns were processed—scaling values where necessary, filling or removing null entries, and ensuring consistency across fields. Outlier correction: The initial **IQR-based filtering** was too strict, reducing the dataset from 10,172 customers to 8,000. To resolve this, we adjusted the IQR threshold from 1.5 to 3.0, ensuring more valid customer records were retained while still filtering extreme values. This has now resulted in 9390 customers. **Attrition flag recoding**: As there was -1 showing in all columns from the original data clean I recoded again the binary classification (0 for attrited, 1 for retained) was adjusted to exclusively use -1 for missing values, ensuring no valid data was removed during processing. **Numerical column transformations**: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
+* To ensure the dataset was clean, structured, and suitable for analysis in **Power BI**, we followed a comprehensive **ETL (Extract, Transform, Load) process**. Initially, we **extracted** raw credit card data, identifying and handling inconsistencies such as missing values, incorrect data types, and anomalies. In the **transformation phase**, numerical columns were processed—scaling values where necessary, filling or removing null entries, and ensuring consistency across fields. Outlier correction: The initial **IQR-based filtering** was too strict, reducing the dataset from 10,172 customers to 8,000. To resolve this, we adjusted the IQR threshold from 1.5 to 3.0, ensuring more valid customer records were retained while still filtering extreme values. This has now resulted in 9390 customers. **Attrition flag recoding**: As there was -1 showing in all columns from the original data clean I recoded again the binary classification (0 for attrited, 1 for retained) was adjusted to exclusively use -1 for missing values, ensuring no valid data was removed during processing. **Numerical column transformations**: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
 
-**Load:**After completing data transformations:
+* **Load:**After completing data transformations:
 The cleaned dataset was saved as cleaned_credit_card_data_v2.csv, ensuring all improvements were preserved. It was loaded into **Power BI** for advanced visualization, filtering, and predictive analytics.
 
 This revised dataset ensures optimal performance, enabling reliable insights into customer retention and financial behaviours while m- Numerical column transformations: We applied scaling, null value handling, and consistency checks across key fields, such as credit limits, transaction amounts, and utilization ratios.
-
-
-## Analysis techniques used
 
 * Data analysis methods used include numerical data extraction and dashboards incorporating the use of interactive doughnut and scatter/bar charts.
 
@@ -114,7 +111,9 @@ Consistent chart types, filters, and labels ensured everyone could interpret the
 * Younger or student customers are showing higher retention, so banks could:
 
 - Introduce early-stage financial wellness programs
+
 - Gamify saving or credit-building features through mobile apps
+
 - Start referral perks — young people appreciate a good deal and will happily share on social media
 
 ## Main Data Analysis Libraries
@@ -143,9 +142,11 @@ Consistent chart types, filters, and labels ensured everyone could interpret the
 
 This project was developed by our hackathon team:
 
-- Beth Knights [bethknights]
-- Gregory Emokpae [Greggpeter234]
-- Shema Rahman [Shema774]
+- Beth Knights [GitHub - bethknights]
+
+- Gregory Emokpae [GitHub - Greggpeter234]
+
+- Shema Rahman [GitHub - Shema774]
 
 ## Acknowledgements 
 
